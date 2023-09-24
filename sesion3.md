@@ -29,7 +29,38 @@
    ________________
 
    # Solución
+# 1.
 
-   
+``````java
 
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
 
+package com.mycompany.act1;
+import java.util.Scanner;
+/**
+ *
+ * @author Julio Cesar Torres
+ */
+public class Act1 {
+
+    public static void main(String[] args) {
+        Scanner entradaDatos = new Scanner(System.in);
+        
+        System.out.println("Ingrese el primer numero");
+        int numero1 = entradaDatos.nextInt();
+        
+          System.out.println("Ingrese el segundo numero");
+        int numero2 = entradaDatos.nextInt();
+        
+        int suma = numero1 + numero2;
+        int multi = numero1 * numero2;
+        
+           System.out.println("El resultado de la suma es: "+ suma);
+           System.out.println("El resultado de la multiplicacion es: "+ multi);
+    }
+}
+``````
+# 2.
