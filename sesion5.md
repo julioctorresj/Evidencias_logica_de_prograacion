@@ -39,7 +39,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author ALEJANDRA ARIAS
+ * @author Julio Cesar Torres
  */
 public class ACT5 {
 
